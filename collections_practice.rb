@@ -33,3 +33,9 @@ end
 def sum_array(integers)
   integers.reduce(:+)
 end
+
+def add_s(words)
+  cache = words[1]
+  return_array = words.collect { |e| "#{e}s" }
+  return_array[1] = cache
+end
