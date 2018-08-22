@@ -8,5 +8,6 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(words)
-  words
+  words.sort { |a, b| a.size <=> b.size }
 end
+  
