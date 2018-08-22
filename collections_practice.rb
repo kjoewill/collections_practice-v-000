@@ -12,5 +12,8 @@ def sort_array_char_count(words)
 end
   
 def swap_elements(array)
+  second_element_cache = array[1]
+  array[1] = array[2]
+  array[2] = second_element_cache
   array
 end
