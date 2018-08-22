@@ -26,4 +26,6 @@ def kesha_maker(words)
   words.each { |e| e[2] = "$" }
 end
 
-def 
+def find_a(words)
+  words.select { |w| w[0] == 'a'}
+end
