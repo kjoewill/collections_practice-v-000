@@ -25,3 +25,5 @@ end
 def kesha_maker(words)
   words.each { |e| e[2] = "$" }
 end
+
+def 
